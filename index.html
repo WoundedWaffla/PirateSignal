@@ -9,30 +9,36 @@
   <link rel="shortcut icon" href="../img/mainlogo.png" type="image/png">
 </head>
 
+<header>
+  <! --первый блок ссылки -->
+  <div class="uppermenu">
+    <div class="logo">
+      <img class="logo" src="../img/mainlogo.png" alt="mainlogo">
+    </div>
+    <div class="mainmenu">
+      <a class="menuText" href="/">Игры</a>
+      <a class="menuText" href="/">Группы</a>
+      <a class="menuText" href="/">Форум</a>
+      <a class="menuText" href="/">Подайте сигнал</a>
+    </div>
+    <div class="loginMenu">
+      <a class="menuText" href="../PirateSignal/reg.html">Регистрация</a>
+      <a class="menuText" href="../PirateSignal/auth.html">Войти</a>
+    </div>
+  </div>
+  <! --второй блок статистика -->
+  <div class="staticmenu">
+    <div class="menuitem">
+      <a class="menuTextstaticOrange">Онлайн: </a>
+      <a class="menuTextstatic">Игр: </a>
+      <a class="menuTextstatic">Форум: </a>
+    </div>
+  </div>
+</header>
+
 <body>
   <main>
-    <div class="uppermenu">
-      <div class="logo">
-        <img class="logo" src="../img/mainlogo.png" alt="mainlogo">
-      </div>
-      <div class="mainmenu">
-        <a class="menuText" href="/">Игры</a>
-        <a class="menuText" href="/">Группы</a>
-        <a class="menuText" href="/">Форум</a>
-        <a class="menuText" href="/">Подайте сигнал</a>
-      </div>
-      <div class="loginMenu">
-        <a class="menuText" href="/">Регистрация</a>
-        <a class="menuText" href="/">Войти</a>
-      </div>
-    </div>
-    <div class="staticmenu">
-      <div class="menuitem">
-        <a class="menuTextstaticOrange">Онлайн: </a>
-        <a class="menuTextstatic">Игр: </a>
-        <a class="menuTextstatic">Форум: </a>
-      </div>
-    </div>
+    <! --первый экран -->
     <div class="firstwindow">
       <div class="newsWindow">
         <div class="newsWindow1">
@@ -58,9 +64,8 @@
         </div>
       </div>
     </div>
-    </div>
+
   </main>
-  <script type="module" src="script.js"></script>
 </body>
 
 <footer>
@@ -69,4 +74,6 @@
   </div>
 </footer>
 
+<! --Подключение скриптов -->
+<script type="module" src="script.js"></script>
 </html>

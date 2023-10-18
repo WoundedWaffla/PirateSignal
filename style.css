@@ -93,13 +93,13 @@ main {
   }
 }
 
+/* НАПИСАНЫЙ КОД*/
+
 .uppermenu {
   width: 100%;
   height: 5em;
   background-color: #171717;
 }
-
-.loginMenu {}
 
 .staticmenu {
   width: 100%;
@@ -111,8 +111,6 @@ main {
 .menuText {
   color: white;
 }
-
-.mainmenu {}
 
 .firstwindow {
   width: 100%;
